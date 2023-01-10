@@ -1,6 +1,6 @@
 
 # 0.8.2.1
-* iolarou: strips NL on OS_VERSION in environment.rb
+* iolarou: strips NL from OS_VERSION in environment.rb
 
 # 0.8.2
 * Fixes for file storage and missing cacerts file

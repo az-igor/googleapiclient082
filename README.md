@@ -1,5 +1,3 @@
-# Google API Client
-
 ## Patch Disclaimer
 
 This distribution is based on v0.8.2 and fixes the problem of ENV::OS_VERSION getting into the API request's User-Agent header together with '\n' in lib/google/api_client.rb, causing the following runtime error:
@@ -8,6 +6,10 @@ This distribution is based on v0.8.2 and fixes the problem of ENV::OS_VERSION ge
 ArgumentError: header User-Agent has field value "ppc-gd/0.1.3 google-api-ruby-client/0.8.2 Linux/5.15.49-linuxkit\n (gzip)", this cannot include CR/LF
 ```
 As a workaround, '.strip' is added in lib/google/api_client/environment.rb accordingly.
+
+<a href="mailto:igor_olarou@yahoo.com">Igor Olarou</a>, 10 January 2023
+
+# Google API Client
 
 <dl>
   <dt>Homepage</dt><dd><a href="http://www.github.com/google/google-api-ruby-client">http://www.github.com/google/google-api-ruby-client</a></dd>
