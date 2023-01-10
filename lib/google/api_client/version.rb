@@ -19,7 +19,7 @@ module Google
       MAJOR = 0
       MINOR = 8
       TINY  = 2
-      PATCH = nil
+      PATCH = 1
       STRING = [MAJOR, MINOR, TINY, PATCH].compact.join('.')
     end
   end
